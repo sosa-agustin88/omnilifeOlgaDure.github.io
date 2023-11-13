@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Color de fondo de la página */
+}
+
+/* Estilos para la imagen superior */
+#header img {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+/* Estilos para la presentación de la vendedora */
+#presentation {
+    background: linear-gradient(to right, #000000, #207cca, #0000ff, #e60073, #ff0000, #ffffff);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    /*box-shadow: 0 0 10px rgba(96, 10, 80, 0.5); /* Efecto de sombra */
+    /*transform: perspective(1000px) rotateX(5deg); /* Efecto tridimensional */
+}
+
+#presentation-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#presentation h1 {
+    font-size: 50px;
+}
+
+/* Estilos para el catálogo estilo Pinterest */
+#catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.catalog-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.catalog-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.catalog-item h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Estilos para los íconos de contacto */
+#contact-icons {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#contact-icons a {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+#contact-icons img {
+    width: 200px; /* Tamaño personalizado, ajusta según tus necesidades */
+}
